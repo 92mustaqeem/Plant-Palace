@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANT PALACE</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/021fabd03e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+   
+</head>
+
+<body>
+	<header>
+    <div class="header-3">
+             <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="LOGO.png" alt="logo-footer" width="74" height="74"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active " aria-current="page" href="#home">Home</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-success" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#outdoor">Outdoor Plants</a></li>
+                                    <li><a class="dropdown-item" href="#indoor">Indoor Plants</a></li>
+                                    <li><a class="dropdown-item" href="#succulents">Succulents</a></li>
+                                    <li><a class="dropdown-item" href="#shrubs">Flowering Shrubs</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" aria-current="page" href="#product">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" aria-current="page" href="#deal">Deal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" aria-current="page" href="#footer">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" aria-current="page" href="#feedback">Feedback</a>
+                            </li>
+                        </ul>
+                        <div class="box position-relative">
+                            <input type="text" placeholder="Search Here..." id="searchInput">
+                            <a href="#">
+                                <i class="fas fa-search" id="searchResults"></i>
+                            </a>
+                            <!-- Search results overlay -->
+                            <ul id="searchResultsList"  class="search-results-list position-absolute bg-white border p-2">
+                                <!-- Search results will be dynamically added here -->
+                            </ul>
+                        </div>
+                         <div class="shopping">
+        <div class="cart-icon-container" id="counter-container">
+            <span class="badge">0</span>
+            <i data-feather="shopping-bag" class="cart-icon"></i>
+        </div>
+    </div>    
+                    </div>
+                </div>
+            </nav>
+
+    </div>
+    </header>
+
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+ <div class="swiper sample-slider" data-aos="fade-up">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <div class="container">
+                <img src="images/slider1.jpg" class="img-fluid">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .25);">
+            <div class="centered">
+                                <h5 class="mb-3 text-uppercase ">Welcome To Plant Palace</h5>
+                                <h1 class="display-3 mb-4">Best Plant Services & Information</h1>
+                                <p class="mb-4">Grow Green, Live Clean: Your Source for Plant Inspiration</p>
+                                <a href="#product1" class="btn btn-primary py-md-3 px-md-5">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <div class="swiper-slide">
+            <div class="container">
+                <img src="images/slider2.jpg" class="img-fluid">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .25);">
+            <div class="centered">
+                                <h5 class="mb-3 text-uppercase">A Natural Oasis in the City</h5>
+                                <h1 class="display-3 mb-4">Where nature comes to life</h1>
+                                <p class="mb-4">Grow Green, Live Clean: Your Source for Plant Inspiration</p>
+                                <a href="#product1" class="btn btn-primary py-md-3 px-md-5">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="swiper-slide">
+            <div class="container">
+                <img src="images/slider3.jpg" class="img-fluid">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .25);">
+            <div class="centered">
+                                <h5 class="mb-3 text-uppercase ">Where You Can Learn About Plants and Flowers</h5>
+                                <h1 class="display-3 mb-4">one-stop shop for all things plants</h1>
+                                <p class="mb-4">Grow Green, Live Clean: Your Source for Plant Inspiration</p>
+                                <a href="#product1" class="btn btn-primary py-md-3 px-md-5">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <div class="swiper-slide">
+            <div class="container">
+                <img src="images/slider4.jpg" class="img-fluid" >
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .25);">
+            <div class="centered">
+                                <h5 class="mb-3 text-uppercase">A green escape from the hustle and bustle of the city</h5>
+                                <h1 class="display-3 mb-4"> A breath of fresh air for your soul</h1>
+                                <p class="mb-4">Grow Green, Live Clean: Your Source for Plant Inspiration</p>
+                                <a href="#product1" class="btn btn-primary py-md-3 px-md-5">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>                       
+    </div>
+</div>
+
+        <!-- home section ends -->
+
+       <!-- category section starts  -->
+       <section data-aos="zoom-in">
+        <h1 class="heading"> Category </h1>
+        <div class="banner-container">
+
+        <div class="banner" id="indoor">
+                <img src="images\banner1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .2);">
+<div class="content">
+                    <span>Collection Of</span>
+                    <h3 style="color:white;">Indoor Plants</h3>
+                    <button class="showPopup btn">See More</button>
+                </div>
+                <div class="popup box">
+                    <div class="row box-content">
+                        <center>
+                            <h1 class="text-success">Green Haven: Exploring the Enchanting World of<br> Indoor Plants</h1>
+                            <p class="text-black">
+Indoor plants thrive in homes, offices, and shops, enhancing aesthetics and seamlessly fitting into indoor spaces. Their wide variety of species, sizes, colors, and growth patterns adds a touch of nature to interior design. Apart from their visual appeal, these plants offer health benefits as natural air purifiers, absorbing pollutants and emitting oxygen for a healthier environment. They also bring stress relief, improved focus, and a sense of care. Proper care involves attentiveness to light, water, and humidity needs.</p></center>
+ </div>
+    <center><a class="btn closePopup" href="#product6">Check Now</a></center>
+</div>
+
+            </div>
+            </div>
+
+            <div class="banner" id="outdoor">
+                <img src="images\banner2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .2);">
+                <div class="content">
+                    <span>Collection Of</span>
+                    <h3 style="color: white;">Outdoor Plants</h3>
+                    <button class="showPopup btn">See More</button>
+                </div>
+                <div class="popup box">
+                    <div class="row box-content">
+                        <center>
+                            <h1 class="text-success">Outdoor Elegance: A Symphony of <br>Outdoor Plants</h1>
+                            <p class="text-black">
+An outdoor plant is a living organism that grows and thrives in an open-air environment, such as a garden, yard, or natural landscape. These plants can include a wide variety of species, from flowering plants like roses and sunflowers to trees like oaks and pines, as well as shrubs, grasses, and vines. Outdoor plants require sunlight, water, nutrients from the soil, and proper care to flourish. They contribute to the beauty of outdoor spaces, provide habitat for wildlife, and can offer benefits like shade, erosion control, and improved air quality.</p></center>
+ </div>
+    <center><a class="btn closePopup" href="#product1">Check Now</a></center>
+</div>
+            </div>
+            </div>
+
+            </div>
+            <br>
+      
+
+        <div class="category" id="category">
+    <h1 class="heading"> Sub Categories </h1>
+
+            <div class="box-container" id="succulents">
+
+                <div class="box" id="cat1">
+                    <img src="images/cat1.jpg" alt="">
+                    <div class="content">
+                        <h3>Flowering Shrubs</h3>
+                        <a href="#product5" class="btn">Check Now</a>
+                    </div>
+                </div>
+                <div class="box" id="cat2">
+                    <img src="images/cat2.jpg" alt="">
+                    <div class="content">
+                        <h3>Succulent</h3>
+                        <a href="#product1" class="btn">Check Now</a>
+                    </div>
+                </div>
+                <div class="box" id="cat3">
+                    <img src="images/cat3.jpg" alt="">
+                    <div class="content">
+                        <h3>Sherbs & Herbs</h3>
+                        <a href="#product2" class="btn">Check Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/cat4.jpg" alt="">
+                    <div class="content">
+                        <h3>Accessories</h3>
+                        <button class="showPopup btn">Check Now</button>
+                         </div>
+                         <center>
+                            <div class="popup box" style="border-radius: 0px;">
+                                <div class="row box-content">
+                                    <h1 class="text-success">Accesories Coming Soon</h1>
+                                    <h4 class="text-success">You Can Check Another Category.</h4><br>
+                                    <button class="closePopup btn">Close</button>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        <!-- category section ends -->
+
+        <!-- product section starts  -->
+
+        <section class="product" id="product" data-aos="fade-up">
+
+            <h1 class="heading"> new products </h1>
+
+            <div class="box-container">
+
+                <div class="box" id="product1">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="images/product1.jpg" alt="">
+                    <h3>Cactus plant</h3>
+                    <div class="quantity">
+                        <span> quantity : </span>
+                        <input type="number" min="1" max="100" value="1">
+                    </div>
+                    <div class="price">$20 <span>$50</span>
+                    </div>
+                    <center>
+                        <button  class="btn_add btn notificationButton" data-counter="0">Add To Cart</button>
+                    </center></div>
+
+                <div class="box" id="product2">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="images/product2.jpeg" alt="">
+                    <h3>Mint plant</h3>
+                    <div class="quantity">
+                        <span> quantity : </span>
+                        <input type="number" min="1" max="100" value="1">
+                    </div>
+                    <div class="price">$50 <span>$80</span></div>
+                    <center>
+                        <button  class="btn_add btn notificationButton" data-counter="0">Add To Cart</button>
+                    </center>
+
+                </div>
+
+                <div class="box" id="product3">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="images/product3.jpg" alt="">
+                    <h3>Spider Plant</h3>
+                    <div class="quantity">
+                        <span> quantity : </span>
+                        <input type="number" min="1" max="100" value="1">
+                    </div>
+                    <div class="price">$60 <span>$150</span></div>
+                    <center><button  class="btn_add btn notificationButton" data-counter="0">Add To Cart</button></center>
+                </div>
+
+                <div class="box" id="product4">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="images/product4.jpg" alt="">
+                    <h3>Radioator plant</h3>
+                    <div class="quantity">
+                        <span> quantity : </span>
+                        <input type="number" min="1" max="100" value="1">
+                    </div>
+                    <div class="price">$100 <span>$200</span></div>
+                    <center><button  class="btn_add btn notificationButton" data-counter="0">Add To Cart</button></center>
+                </div>
+
+                <div class="box" id="product5">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="images/product5.jpg" alt="">
+                    <h3>Daisy plant</h3>
+                    <div class="quantity">
+                        <span> quantity : </span>
+                        <input type="number" min="1" max="100" value="1">
+                    </div>
+                    <div class="price">$60 <span>$95</span></div>
+                   <center><button  class="btn_add btn notificationButton" data-counter="0">Add To Cart</button></center>
+                </div>
+
+                <div class="box" id="product6">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="images/product6.jpg" alt="">
+                    <h3>Ivy plant</h3>
+                    <div class="quantity">
+                        <span> quantity : </span>
+                        <input type="number" min="1" max="100" value="1">
+                    </div>
+                    <div class="price">$500 <span>$800</span></div>
+                    <center><button  class="btn_add btn notificationButton" data-counter="0">Add To Cart</button></center>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- product section ends -->
+        <!-- .icons section starts  -->
+
+        <section class="icons-container" data-aos="fade-up">
+
+            <div class="icon">
+                <img src="images/icon1.png" alt="">
+                <div class="content">
+                    <h3>free shipping</h3>
+                    <p>Free shipping on order</p>
+                </div>
+            </div>
+           
+            <div class="icon">
+                <img src="images/icon2.png" alt="">
+                <div class="content">
+                    <h3>100% Money Back</h3>
+                    <p>You’ve 30 days to Return</p>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="images/icon3.png" alt="">
+                <div class="content">
+                    <h3>Payment Secure</h3>
+                    <p>100% secure payment</p>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="images/icon4.png" alt="">
+                <div class="content">
+                    <h3>Support 24/7</h3>
+                    <p>Contact us anytime</p>
+                </div>
+            </div>
+      
+    
+</section>
+        <!-- .icons section ends -->
+
+        <!-- deal section starts  -->
+
+        <section class="deal" id="deal" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos=>
+
+            <h1 class="heading"> deal of the day </h1>
+
+            <div class="row">
+
+                <div class="content">
+                    <h3 class="title">don't miss the deal</h3>
+                     <p><u>Plant Palace</b></u> their are variety of products available, such as Outdoor Plants, Indoor plants, Succulents, Flowering Shrubs and gardening Accessories so on. These deals are often very attractive, with discounts of up to 50% or more, To make sure that customers don't miss out on these great deals.<br><br>Here are the (Best Dont miss deals options)are offered at the Plant Palace</p><h4></p><b><b class="text-success">50% off all annuals!</b></u></b></h4><br>
+                    <h4><b><b class="text-success">20% off all perennials!</b></u></b></h4><br>
+                    <h4><b><b class="text-success">Free shipping on orders over $50!</b></u></b></h4><br>
+                    <h4><b><b class="text-success">Buy one get one free on all succulents!</b></u></b></h4><br>
+                    <h4><b><b class="text-success">25% off all gardening supplies!</b></u></b></h4><br>
+                    <div class="count-down">
+                        <div class="box">
+                            <h3 id="day">10</h3>
+                            <span>day</span>
+                        </div>
+                        <div class="box">
+                            <h3 id="hour">22</h3>
+                            <span>hour</span>
+                        </div>
+                        <div class="box">
+                            <h3 id="minute">16</h3>
+                            <span>minute</span>
+                        </div>
+                        <div class="box">
+                            <h3 id="second">57</h3>
+                            <span>second</span>
+                        </div>
+                    </div>
+                    <button class="btn showPopup">check out deal</button>
+                    <div class="popup box">
+                        <div class="row box-content">
+                            <center>
+                            <h1 class="text-success title">Available Deal</h1>
+                            <br>
+                            <h3 class="text-success">Buy Mint Plant Now And Get</h3>
+                            <h1 class="title">Free home Delivery</h1>
+                            <h3 class="text-success">So Buy Now</h3>
+                            <a href="#product2" class="btn closePopup">Buy Now</a>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image">
+                    <img src="images/deal-img.jpg" alt="">
+                </div>
+
+            </div>
+
+        </section>
+        <!-- deal section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">get in touch</h1>
+
+        <div class="row">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d115363.50295644687!2d68.29229597299172!3d25.36764746185392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x394c7155f2d75e53%3A0x3d7277a889fc6716!2s999F%2B3V8%2C%20Auto%20Bahn%20Rd%2C%20Hyderabad%2C%20Sindh%2071000!3m2!1d25.367670399999998!2d68.3746975!5e0!3m2!1sen!2s!4v1691598560447!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <h1 id="feedback"><b class="text-success"> <u>FeedBack</u></b></h1>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" required>
+                    <label>name</label>
+                </div>
+                <div class="inputBox">
+                    <input type="email" required>
+                    <label>email</label>
+                </div>
+                <div class="inputBox">
+                    <input type="number" required>
+                    <label>number</label>
+                </div>
+                <div class="inputBox">
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <label>feedback</label>
+                </div>
+
+                <input type="submit" value="submit" class="btn">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+
+            <b>
+                <div class="box">
+                    <h1><b class="text-success"> <u>PLANT INFORMATION</h1></u>
+            </b>
+            <p>At <span class="text-success"> Plant Palace</span>, we believe that plants make the world a better place. They bring us joy, improve
+                our air quality, and help us to connect with nature. That's why we're committed to providing our
+                customers with the best possible selection of plants, as well as the knowledge and support they need
+                to keep their plants healthy and thriving.
+
+                We know that everyone's needs are different, so we offer a wide variety of plants to choose from.
+                Whether you're looking for a low-maintenance plant for your office or a statement piece for your
+                living room, we have something for you. We also offer a variety of plant care products and services,
+                so you can be sure your plants are getting the care they need.
+
+                Our team of plant experts is passionate about helping people connect with nature through plants.
+                We're always happy to answer your questions and provide you with the support you need to keep your
+                plants happy and healthy.
+
+                We believe that everyone deserves to enjoy the benefits of plants, and we're committed to making it
+                easy for everyone to find the perfect plants for their home or office. Whether you're a beginner or
+                a seasoned plant parent, we're here to help you bring the joy of plants into your life.</p>
+        </div>
+        </h1>
+        </div>
+        </b>
+        </div>
+    	<div id="plantsTypesImg"
+                class="d-sm-flex flex-sm-column d-md-flex flex-md-row d-lg-flex flex-lg-row mx-lg-3 mx-md-3 mx-sm-3 mx-3 my-lg-2 my-md-2 my-sm-2 my-2 ">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12 text-center">
+                    <img src="images/1.jpg"
+                        class="typeImg   img-fluid rounded mx-lg-2 mx-md-2 mx-sm-2 my-lg-2 my-md-2 my-sm-2 my-2">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12 text-center ">
+                    <img src="images/2.jpg"
+                        class="typeImg   img-fluid rounded mx-lg-2 mx-md-2 mx-sm-2 my-lg-2 my-md-2 my-sm-2 my-2">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12  text-center">
+                    <img src="images/3.jpg"
+                        class="typeImg   img-fluid rounded mx-lg-2 mx-md-2 mx-sm-2 my-lg-2 my-md-2 my-sm-2 my-2">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12  text-center">
+                    <img src="images/4.jpg"
+                        class="typeImg   img-fluid rounded mx-lg-2 mx-md-2 mx-sm-2 my-lg-2 my-md-2 my-sm-2 my-2">
+                </div>
+
+
+            </div>
+
+        <div id="plantsParagraph"class="d-sm-flex flex-sm-column d-md-flex flex-md-row d-lg-flex flex-lg-row mx-lg-3 mx-md-3 mx-sm-3 mx-3 my-lg-2 my-md-2 my-sm-2 my-2">
+            <div class="parg shadow rounded-1 mx-lg-2 mx-md-2 mx-sm-2 mx-2 col-lg-3 col-md-3 col-sm-12 col-12 ">
+                <p class="mx-lg-3 mx-md-3 mx-sm-3 mx-3 mt-lg-2">
+                    <b class="text-success">
+                        <h3>Outdoor Plants</h3>
+                    </b>Outdoor plants are designed to withstand the elements and flourish in outdoor gardens, <b
+                        class="text-success"><u>Balconies,or yards.<br></u></b> They encompass a wide range of
+                    options, from trees like the Maple, providing shade and color, to vibrant perennials like the
+                    Coneflower, adding pops of color to your landscape.
+                </p>
+            </div>
+            <div class=" parg shadow rounded-1  mx-lg-2 mx-md-2 mx-sm-2 mx-2 col-lg-3 col-md-3 col-sm-12 col-12 ">
+                <p class="mx-lg-3 mx-md-3 mx-sm-3 mx-3 mt-lg-2">
+                    <b class="text-success">
+                        <h3>Indoor Plants</h3>
+                    </b>
+                    Indoor plants are species that thrive within the controlled environment of your home. They come
+                    in various sizes and shapes, making them perfect for decorating indoor spaces. Some popular
+                    choices include the <b class="text-success"><u>Snake Plant</u></b>, known for its <b
+                        class="text-success"><u>air-purifying abilities, and the Peace Lily,</u></b> which adds
+                    elegance with its white blooms.
+                </p>
+
+
+            </div>
+            <div class=" parg shadow rounded-1  mx-lg-2 mx-md-2 mx-sm-2 mx-2 col-lg-3 col-md-3 col-sm-12 col-12 ">
+                <p class="mx-lg-3 mx-md-3 mx-sm-3 mx-3 mt-lg-2">
+                    <b class="text-success">
+                        <h3>Succulents
+                    </b></h3>
+                    Succulents are water-storing plants known for their unique and often quirky appearances. They
+                    thrive in arid conditions and come in an array of <b class="text-success"><u>shapes and
+                            sizes.</u></b> The Jade Plant, with its plump leaves, and the Echeveria, forming rosette
+                    patterns, are popular choices that require minimal maintenance.
+
+                </p>
+            </div>
+            <div class=" parg shadow rounded-1  mx-lg-2 mx-md-2 mx-sm-2 mx-2 col-lg-3 col-md-3 col-sm-12 col-12 ">
+            <p class="mx-lg-3 mx-md-3 mx-sm-3 mx-3 mt-lg-2">
+                <b class="text-success">
+                    <h3>Flowering Shrubs
+                </b></h3>
+                plants are live in aquatic environments such as ponds,
+                <b class="text-success"><u>Flowering shrubs are versatile</u></b> plants that combine foliage with
+                beautiful blossoms. They can be used to create borders, hedges, or standalone focal points in your
+                garden. The Rose of Sharon is a stunning option with vibrant blooms, while the Butterfly Bush
+                attracts pollinators with its fragrant flowers.
+
+            </p>
+        </div>       
+    </section>
+
+    <!-- footer section starts  -->
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-3 footer-about wow fadeInUp animated"
+                        style="visibility: visible; animation-name: fadeInUp;">
+
+                        <h3><b class="text-success"> <u>Plant Palace</u></b></h3>
+                        <p>Embrace the beauty of nature with Plant Palace. We're your dedicated destination for
+                            cultivating vibrant gardens. </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 footer-contact wow fadeInDown animated"
+                        style="visibility: visible; animation-name: fadeInDown;">
+                        <h3><b class="text-success"> <u>Contact us</u></b></h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Plant Palace Hyderabad</p>
+                        <p><i class="fas fa-phone"></i>022772373</p>
+                        <p><i class="fas fa-envelope"></i> Email: <a
+                                href="mailto:hello@domain.com">plantpl456@gmail.com</a></p>
+
+                    </div>
+                    <div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated"
+                        style="visibility: visible; animation-name: fadeInUp;">
+                        <h3><b class="text-success"> <u>follow Us</u></b></h3>
+                        <p>
+                            <a href="#"><i class="fa-brands fa-square-facebook fa-2xl" style="color: dodgerblue;"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-twitter fa-2xl" style="color: dodgerblue;"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram fa-2xl" style="color: orange;"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-pinterest fa-2xl" style="color: red;"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 footer-team wow fadeInUp animated" style="visibility: visible;
+                            animation-name:fadeInUp;">
+                         <h3><b class="text-success"> <u>Our Team Memebers</u></b></h3>
+                        <p>Abdullah Mutawassim</p>
+                        <p>Muhammad Mustaqeem</p>
+                        <p>Rana Usama</p>
+                        <p>Vivek Kumar</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-copyright">
+                        <p>All Rights Reserved | PLANT PALACE | 2023 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <!-- custom js file link  -->
+    <script type="text/javascript">
+    const swiper =new Swiper('.sample-slider',{
+    loop: true,                         
+    autoplay: {                         
+        delay: 2000,  
+    },       
+    pagination: {                       
+        el: '.swiper-pagination',
+    },
+    navigation: {                       
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+})
+    let popup = document.getElementById('popup')
+    
+    function openPopup() {
+        popup.classlist.add("open-popup");
+    }
+    function closePopup() {
+        popup.classlist.remove("open-popup");
+    }
+</script>
+
+<script>
+        AOS.init({
+            duration:2000
+        });
+      </script>
+
+            <script>
+                const searchInput = document.getElementById("searchInput");
+                const searchResultsList = document.getElementById("searchResultsList");
+            
+                const resultsData = [
+                    { text: "Flowering Shrubs", link: "#cat1" },
+                    { text: "Succulent", link: "#cat2" },
+                    { text: "Sherbs & Herbs", link: "#cat3" },
+                    { text: "Cactus Plant", link: "#product1"},
+                    { text: "Air Plants", link: "#product2" },
+                    { text: "Spider Plants", link: "#product3" },
+                    { text: "Radioator Plants", link: "#product4" },
+                    { text: "Daisy Plants", link: "#product5" },
+                    { text: "Ivy Plants", link: "#product6" },
+                    // Add more results with their respective links
+                ];
+            
+                searchInput.addEventListener("input", () => {
+                    const searchText = searchInput.value.trim().toLowerCase();
+                    if (searchText.length > 0) {
+                        // Clear previous results
+                        searchResultsList.innerHTML = "";
+            
+                        resultsData.forEach(result => {
+                            if (result.text.toLowerCase().includes(searchText)) {
+                                const listItem = document.createElement("li");
+                                const link = document.createElement("a");
+                                link.href = result.link;
+                                link.textContent = result.text;
+                                listItem.appendChild(link);
+                                searchResultsList.appendChild(listItem);
+                            }
+                        });
+            
+                        searchResultsList.style.display = "block";
+                    } else {
+                        searchResultsList.style.display = "none";
+                    }
+                });
+            
+                searchInput.addEventListener("blur", () => {
+                    // Delay hiding the results to allow clicking on them
+                    setTimeout(() => {
+                        searchResultsList.style.display = "none";
+                    }, 200);
+                });
+            
+                searchResultsList.addEventListener("click", (event) => {
+                    event.stopPropagation(); // Prevent the blur event from firing
+                });
+            </script>
+
+<script>
+    const showPopupButtons = document.getElementsByClassName('showPopup');
+    const closePopupButtons = document.getElementsByClassName('closePopup');
+    const popups = document.getElementsByClassName('popup');
+
+    for (let i = 0; i < showPopupButtons.length; i++) {
+        showPopupButtons[i].addEventListener('click', () => {
+            popups[i].style.display = 'block';
+        });
+    }
+
+    for (let i = 0; i < closePopupButtons.length; i++) {
+        closePopupButtons[i].addEventListener('click', () => {
+            popups[i].style.display = 'none';
+        });
+    }
+</script> 
+<script type="text/javascript">
+        feather.replace();
+        const addButtonElements = document.querySelectorAll('.btn_add');
+        const cartIcon = document.querySelector('.cart-icon');
+        const badge = document.querySelector('.badge');
+        let totalCount = 0;
+
+        addButtonElements.forEach(addButton => {
+            addButton.addEventListener('click', event => {
+                const counter = parseInt(addButton.getAttribute('data-counter')) + 1;
+                addButton.setAttribute('data-counter', counter);
+                totalCount++;
+                updateBadge();
+            });
+        });
+
+        function updateBadge() {
+            badge.textContent = totalCount;
+        }
+    </script>
+    <script>
+        // Get a reference to the button element using getElementsByClassName
+        const buttons = document.getElementsByClassName('notificationButton');
+
+        // Add a click event listener to each button
+        for (let i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener('click', function() {
+                // Check if the browser supports notifications
+                if ('Notification' in window) {
+                    // Request permission to show notifications
+                    Notification.requestPermission()
+                        .then(function(permission) {
+                            if (permission === 'granted') {
+                                // Create and display the notification
+                                const notification = new Notification('product Added', {
+                                    body: 'product added succesfully!',
+                                });
+                            }
+                        });
+                } else {
+                    // If notifications are not supported by the browser
+                    alert('Notifications are not supported by your browser.');
+                }
+            });
+        }
+    </script>    
+      
+</body>
+
+</html>

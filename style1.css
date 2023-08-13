@@ -1,0 +1,225 @@
+body{
+    background-color: #e8eeea;
+}
+
+/*.bookmarkIcon{
+
+    width: 50%;
+    height: 12%;
+    background-color: rgb(3, 65, 13);
+    box-sizing: border-box;
+    border-bottom-right-radius: 40%; 
+    border-bottom-left-radius: 40%;   
+}*/
+/*
+.introImg{
+   width: 10.5em;
+   height: 12.5em;
+}
+.introImg:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 20px 5px rgb(3, 65, 13);
+    z-index:1;
+}*/
+
+.typeImg{
+    width: 15.5em;
+   height: 10.5em;
+}
+.typeImg:hover{
+    transform: scale(1.3);
+    box-shadow: 1px 1px 20px 5px rgb(3, 65, 13);
+    z-index:1;
+}
+.imgIcon{
+    width:8.5em;
+   height:6.5em;
+}
+.parg:hover{
+    transform: scale(1.3);
+    box-shadow: 2px 3px 20px 5px rgb(3, 65, 13);
+    z-index:1;
+}
+.footerImg{
+    width: 24em;
+    height: 5em;
+}
+
+/* Swiper styles */
+.swiper {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-slide {
+    flex: 0 0 100%; /* Ensure each slide takes up the full width */
+}
+
+/* Slide content */
+.swiper .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh; /* Make slides take up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.centered {
+    text-align: center;
+    margin: auto;
+}
+
+/* Typography */
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+.display-3 {
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+h5, .mb-3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+p, .fs-5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Buttons */
+.btn {
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+    background-color: green;
+    border-color: green;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: green;
+    border-color: green;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: slategrey;
+    color: white;
+    font-weight: bolder;
+    border-color: slategrey;
+}
+.swiper img{
+    max-width: 100%;
+    height: 100%;
+}
+
+/*popup*/
+
+ .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 19px 11px 12px rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+            border-radius: 30px;
+        }
+ .popup-img{
+    width: 90%;
+    margin: auto;
+ }
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+.box:hover input {
+    width: 200px;
+    padding: 5px;
+    outline: #198754;
+    border: 2px solid rgba(35, 195, 56, 0.666);
+}
+
+.box input {
+    width: 0;
+    font-weight: 900;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.box a .fas {
+    font-size: 21px;
+    color: #198754;
+}
+
+                }
+            
+                .search-results-list li:hover {
+                    background-color: rgba(35, 195, 56, 0.666);
+                    color: white;
+                    border-radius: 10%;
+                    transition: 2s linear;
+                }
+                .search-results-list::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+   
+}
+                /* Style for search results overlay */
+                .search-results-list {
+                    display: none;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    max-height: 150px; /* Set the max height here */
+                    overflow-y: auto;
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+                }
+            
+                .search-results-list li {
+                    padding: 6px 12px;
+                    cursor: pointer;
+                    transition: background-color 0.2s;
+                }
+            
+                .search-results-list li:hover {
+                    background-color: rgba(35, 195, 56, 0.666);
+                    color: white;
+                    border-radius: 10%;
+                    transition: 2s linear;
+                }
+                .search-results-list::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+   
+}

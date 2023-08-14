@@ -148,31 +148,26 @@ p, .fs-5 {
  .popup {
             display: none;
             position: fixed;
-            top: 50%;
+            top: 25%;
             left: 50%;
             transform: translate(-50%, -50%);
-
             padding: 20px;
             background-color: #fff;
             border: 1px solid #ccc;
             box-shadow: 19px 11px 12px rgba(0, 0, 0, 0.5);
             z-index: 9999;
             border-radius: 30px;
+            width: 70%;
         }
  .popup-img{
     width: 90%;
     margin: auto;
  }
- * {
-    margin: 0;
-    padding: 0;
-}
 
 .box:hover input {
     width: 200px;
     padding: 5px;
-    outline: #198754;
-    border: 2px solid rgba(35, 195, 56, 0.666);
+    border: 2px solid #198754;
 }
 
 .box input {

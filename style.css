@@ -567,7 +567,7 @@ section{
 
 }
 
-@media only screen (min-width:300px) and (max-width:768px){
+@media only screen(max-width:768px){
 
   #menu-bar{
     display: initial;
@@ -626,7 +626,7 @@ section{
 
 }
 
-@media (max-width:450px){
+@media only screen (max-width:450px){
 
   html{
     font-size: 50%;
@@ -787,6 +787,7 @@ section{
 .footer-top {
     padding: 40px 0;
     text-align: center;
+    margin: auto;
 }
 }
     /*CART*/

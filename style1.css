@@ -65,7 +65,7 @@ body{
     position: relative;
     text-align: center;
     color: white;
-    height: 100vh; /* Make slides take up the full viewport height */
+    height: auto; /* Make slides take up the full viewport height */
     display: flex;
     flex-direction: column;
     justify-content: center;
